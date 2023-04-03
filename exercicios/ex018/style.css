@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+
+  @font-face {
+    font-family: 'strasua' ;
+    src: url('fontes/strasua.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Dica: whatfontis.com */
+
+h1 {
+    font-family: 'strasua', cursive;
+    color: rgb(6, 129, 43);
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.425);
+}
+
+h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    
+}

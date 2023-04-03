@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'strasua' ;
+    src: url('fontes/strasua.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+    /* Tipos de formatos
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-att ( Apple Advanced Typography )
+    - svg
+    */
+}
+
+h1{
+    font-family: 'strasua', Times, serif;
+}

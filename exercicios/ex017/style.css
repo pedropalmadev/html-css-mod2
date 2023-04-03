@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Medidas absolutas: 
+    cm, mm, in, !important = px!, pt, pc
+
+    Medidas relativas:
+    !important = em!, ex, rem, vw, vh, %
+
+    */
+    font-size: 1em ;
+    font-weight: 400;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;
+
+    /* usando short hand, font: style -> weight -> size -> family ( o de baixo vale o mesmo que o de cima) */
+    font: italic bold 3em 'Courier New', Courier, monospace;
+}
